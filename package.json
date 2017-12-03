@@ -1,0 +1,11 @@
+{
+  "name": "hqt",
+  "version": "0.0.1",
+  "description": "do an hqt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "haithanh079",
+  "license": "ISC"
+}
