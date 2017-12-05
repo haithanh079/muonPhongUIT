@@ -7,7 +7,7 @@ const connect = require('./models/mysql.js')
 //connect.connect();
 connect.querySV();
 
-// app.listen(3000, (req,res)=>{
-// 	console.log('Connect!')
-// })
+app.listen(3000, (req,res)=>{
+	console.log('Connect!')
+})
 
