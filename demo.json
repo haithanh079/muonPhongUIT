@@ -1,0 +1,55 @@
+[
+{
+    "ID": 1,
+    "TEN": "1",
+    "KHADUNG":
+    {
+        "type": "Buffer",
+        "data": [0]
+    }
+},
+{
+    "ID": 2,
+    "TEN": "2",
+    "KHADUNG":
+    {
+        "type": "Buffer",
+        "data": [0]
+    }
+},
+{
+    "ID": 3,
+    "TEN": "3",
+    "KHADUNG":
+    {
+        "type": "Buffer",
+        "data": [0]
+    }
+},
+{
+    "ID": 4,
+    "TEN": "4",
+    "KHADUNG":
+    {
+        "type": "Buffer",
+        "data": [0]
+    }
+},
+{
+    "ID": 5,
+    "TEN": "5",
+    "KHADUNG":
+    {
+        "type": "Buffer",
+        "data": [0]
+    }
+},
+{
+    "ID": 6,
+    "TEN": "6",
+    "KHADUNG":
+    {
+        "type": "Buffer",
+        "data": [0]
+    }
+}]

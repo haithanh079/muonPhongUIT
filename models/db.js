@@ -1,8 +1,7 @@
 let dbInfo = {
-	host: '127.0.0.1',
-	user: 'root',
-	password: 'root',
-	database: 'hqt'
+  user: 'sa', 
+  password: '123456', 
+  server: 'localhost',
+  database:'QLTB'
 }
-
 module.exports = dbInfo;
