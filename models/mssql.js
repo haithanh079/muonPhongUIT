@@ -78,30 +78,6 @@ let readAllPhongDaMuon = async () => {
   })
 } 
 
-// let muonPhong = async (MSSV,idPhong,ngayMuon ,gioMuon) => {
-//   try {
-//   let poolconnection = await sql.connect(config)
-//   let result = await poolconnection.request()
-//   .input('MSSV', sql.VarChar(8), MSSV)
-//   .input('idPhong', sql.VarChar(5),idPhong)
-//   .input('ngayMuon', ngayMuon)
-//   .input('gioMuon',  gioMuon)
-//   .execute('muonPhong')
-//   await sql.close()
-//   let queryResult = result.recordset
-//   let JSONresult = {"messages": []}
-//   queryResult.forEach((row)=>{
-//     JSONresult.messages.push({"text": '☑ Đã mượn phòng: ' + row.idPhong+' thành công!'})
-//   })
-//   return JSONresult
-// } catch (err) {
-//   if (err) {
-//     sql.close()
-//     return error = {"messages": [{"text" : '❌ Đã xảy ra lỗi: '+ err}]}
-//   }
-// }
-// }
-
 let muonPhong = async (MSSV,idPhong,ngayMuon ,gioMuon) => {
   return new Promise((resolve, reject) => {
   new sql.ConnectionPool(config).connect().then(pool => {

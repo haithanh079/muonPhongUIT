@@ -72,12 +72,3 @@ module.exports.checkAllPhongTrong = checkAllPhongTrong
 module.exports.checkAllPhongDaMuon = checkAllPhongDaMuon
 module.exports.muonPhong = muonPhong
 module.exports.traPhong = traPhong
-
-
-// let test = (req,res)=>{
-// 	database.test().then((Result)=>{
-// 	res.send(Result)
-// },(error)=>console.log(error))
-// }
-
-// module.exports.test = test
